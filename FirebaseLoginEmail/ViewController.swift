@@ -9,7 +9,7 @@
 import UIKit
 import FirebaseAuth
 class ViewController: UIViewController {
-    @IBOutlet weak var segmentUrban: UISegmentedControl!
+    @IBOutlet weak var segmentSeletor:UISegmentedControl!
     @IBOutlet weak var email: UITextField!
     @IBOutlet weak var pwd: UITextField!
     @IBOutlet weak var signInLabel: UILabel!
@@ -37,36 +37,32 @@ class ViewController: UIViewController {
         }
     }
     @IBAction func SignInPressed(_ sender: UIButton)
-    { let uremail = email.text
-        let urpwd = pwd.text
-        if (uremail != nil),(urpwd != nil){
+    {
+        if let uremail = email.text, let urpwd = pwd.text{
             if isCheckState{
-                FIRAuth.auth()?.signIn(withEmail: uremail!, password: urpwd!, completion: {(user,error)in
-                    if let u = user {
-                        self.performSegue(withIdentifier: "gotoHome", sender: self)
+                FIRAuth.auth()?.signIn(withEmail: uremail, password: urpwd, completion: {(user,error) in
+                    if let u = user{
+                        self.performSegue(withIdentifier:"gotoHome", sender: self)
+                    }else{
+                        //error
+                    }
+                })
+            }else{
+                FIRAuth.auth()?.createUser(withEmail: uremail, password: urpwd, completion: {(user,error) in
+                    if let u = user{
+                        self.performSegue(withIdentifier:"gotoHome", sender: self)
                     }else{
                         //error
                     }
                 })
             }
-        
-            
-    }else{
-            if (uremail != nil),(urpwd != nil){
-                if isCheckState{
-                    FIRAuth.auth()?.createUser(withEmail: uremail!, password: urpwd!, completion: {(user,error)in
-                        if let u = user {
-                            self.performSegue(withIdentifier: "gotoHome", sender: self)
-                        }else{
-                            //error
-                        }
-                    })
-                }
-
-
+        }
     }
-}
-}
+   
+
+    
+    
+    
 }
 
 

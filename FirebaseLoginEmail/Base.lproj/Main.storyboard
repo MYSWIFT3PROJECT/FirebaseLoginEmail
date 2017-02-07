@@ -25,15 +25,14 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="21" translatesAutoresizingMaskIntoConstraints="NO" id="1lI-JM-SdC">
                                 <rect key="frame" x="16" y="216.5" width="343" height="234"/>
                                 <subviews>
-                                    <segmentedControl opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="iDR-Xh-VDd">
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="etW-Vy-20L">
                                         <rect key="frame" x="107" y="0.0" width="129" height="29"/>
                                         <segments>
                                             <segment title="SignIn"/>
                                             <segment title="Register"/>
                                         </segments>
-                                        <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
-                                            <action selector="SegmentPressed:" destination="BYZ-38-t0r" eventType="valueChanged" id="N74-le-gSn"/>
+                                            <action selector="SegmentPressed:" destination="BYZ-38-t0r" eventType="valueChanged" id="A9n-fY-aln"/>
                                         </connections>
                                     </segmentedControl>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SignIn" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ulm-Bn-i3b">
@@ -105,7 +104,7 @@
                     <connections>
                         <outlet property="email" destination="JLW-Le-aAq" id="Po9-MM-1rj"/>
                         <outlet property="pwd" destination="YmD-re-RE0" id="cCy-4l-SIj"/>
-                        <outlet property="segmentUrban" destination="iDR-Xh-VDd" id="chQ-6R-VXQ"/>
+                        <outlet property="segmentSeletor" destination="etW-Vy-20L" id="vkX-yF-BOQ"/>
                         <outlet property="signInButton" destination="ozR-yg-1oL" id="QU8-Iu-KcS"/>
                         <outlet property="signInLabel" destination="Ulm-Bn-i3b" id="Lvc-3x-a2v"/>
                         <segue destination="CH8-sr-sfD" kind="show" identifier="gotoHome" id="FOi-bh-4ot"/>
