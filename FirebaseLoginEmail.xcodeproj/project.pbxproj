@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		443ECCAE1E49D1610006102B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443ECCAD1E49D1610006102B /* AppDelegate.swift */; };
+		443ECCB01E49D1610006102B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443ECCAF1E49D1610006102B /* ViewController.swift */; };
+		443ECCB31E49D1620006102B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 443ECCB11E49D1610006102B /* Main.storyboard */; };
+		443ECCB51E49D1620006102B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 443ECCB41E49D1620006102B /* Assets.xcassets */; };
+		443ECCB81E49D1620006102B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 443ECCB61E49D1620006102B /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		443ECCAA1E49D1610006102B /* FirebaseLoginEmail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseLoginEmail.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		443ECCAD1E49D1610006102B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		443ECCAF1E49D1610006102B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		443ECCB21E49D1620006102B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		443ECCB41E49D1620006102B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		443ECCB71E49D1620006102B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		443ECCB91E49D1620006102B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		443ECCA71E49D1610006102B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		443ECCA11E49D1610006102B = {
+			isa = PBXGroup;
+			children = (
+				443ECCAC1E49D1610006102B /* FirebaseLoginEmail */,
+				443ECCAB1E49D1610006102B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		443ECCAB1E49D1610006102B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				443ECCAA1E49D1610006102B /* FirebaseLoginEmail.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		443ECCAC1E49D1610006102B /* FirebaseLoginEmail */ = {
+			isa = PBXGroup;
+			children = (
+				443ECCAD1E49D1610006102B /* AppDelegate.swift */,
+				443ECCAF1E49D1610006102B /* ViewController.swift */,
+				443ECCB11E49D1610006102B /* Main.storyboard */,
+				443ECCB41E49D1620006102B /* Assets.xcassets */,
+				443ECCB61E49D1620006102B /* LaunchScreen.storyboard */,
+				443ECCB91E49D1620006102B /* Info.plist */,
+			);
+			path = FirebaseLoginEmail;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		443ECCA91E49D1610006102B /* FirebaseLoginEmail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 443ECCBC1E49D1620006102B /* Build configuration list for PBXNativeTarget "FirebaseLoginEmail" */;
+			buildPhases = (
+				443ECCA61E49D1610006102B /* Sources */,
+				443ECCA71E49D1610006102B /* Frameworks */,
+				443ECCA81E49D1610006102B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FirebaseLoginEmail;
+			productName = FirebaseLoginEmail;
+			productReference = 443ECCAA1E49D1610006102B /* FirebaseLoginEmail.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		443ECCA21E49D1610006102B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "ios Developer";
+				TargetAttributes = {
+					443ECCA91E49D1610006102B = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = EYADQULRBU;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 443ECCA51E49D1610006102B /* Build configuration list for PBXProject "FirebaseLoginEmail" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 443ECCA11E49D1610006102B;
+			productRefGroup = 443ECCAB1E49D1610006102B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				443ECCA91E49D1610006102B /* FirebaseLoginEmail */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		443ECCA81E49D1610006102B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				443ECCB81E49D1620006102B /* LaunchScreen.storyboard in Resources */,
+				443ECCB51E49D1620006102B /* Assets.xcassets in Resources */,
+				443ECCB31E49D1620006102B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		443ECCA61E49D1610006102B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				443ECCB01E49D1610006102B /* ViewController.swift in Sources */,
+				443ECCAE1E49D1610006102B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		443ECCB11E49D1610006102B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				443ECCB21E49D1620006102B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		443ECCB61E49D1620006102B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				443ECCB71E49D1620006102B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		443ECCBA1E49D1620006102B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		443ECCBB1E49D1620006102B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		443ECCBD1E49D1620006102B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EYADQULRBU;
+				INFOPLIST_FILE = FirebaseLoginEmail/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kshrd.com.FirebaseLoginEmail;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		443ECCBE1E49D1620006102B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EYADQULRBU;
+				INFOPLIST_FILE = FirebaseLoginEmail/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kshrd.com.FirebaseLoginEmail;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		443ECCA51E49D1610006102B /* Build configuration list for PBXProject "FirebaseLoginEmail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				443ECCBA1E49D1620006102B /* Debug */,
+				443ECCBB1E49D1620006102B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		443ECCBC1E49D1620006102B /* Build configuration list for PBXNativeTarget "FirebaseLoginEmail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				443ECCBD1E49D1620006102B /* Debug */,
+				443ECCBE1E49D1620006102B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 443ECCA21E49D1610006102B /* Project object */;
+}
